@@ -1,0 +1,35 @@
+# Data
+data/*.csv
+!data/.gitkeep
+
+# MLflow generated artifacts
+mlruns/
+mlflow.db
+mlartifacts/
+
+# Generated outputs (plots, confusion matrices)
+outputs/*.png
+!outputs/.gitkeep
+
+# Saved models
+models/*.pkl
+!models/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Env / secrets
+.env
